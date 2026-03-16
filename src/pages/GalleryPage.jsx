@@ -2,10 +2,10 @@ import gallery1 from "@/assets/gallery-1.jpg";
 import gallery2 from "@/assets/gallery-2.jpg";
 import gallery3 from "@/assets/gallery-3.jpg";
 import gallery4 from "@/assets/gallery-4.jpg";
-import achievement1 from "@/assets/achievement-1.jpg";
-import achievement2 from "@/assets/achievement-2.jpg";
-import achievement3 from "@/assets/achievement-3.jpg";
-import achievement4 from "@/assets/achievement-4.jpg";
+import achievement1 from "@/assets/ngoA3.png";
+import achievement2 from "@/assets/ngo3.png";
+import achievement3 from "@/assets/ngo2.png";
+import achievement4 from "@/assets/ngo4.png";
 import achievement5 from "@/assets/achievement-5.jpg";
 import taljai1 from "@/assets/taljai-1.jpg";
 import taljai2 from "@/assets/taljai-2.jpg";
@@ -19,10 +19,10 @@ const galleryImages = [
   { src: gallery2, alt: "Native tree planting by Sarvesamanah volunteers" },
   { src: gallery3, alt: "Environmental conservation initiative Pune" },
   { src: gallery4, alt: "Green cover restoration at Taljai Hills" },
-  // { src: achievement1, alt: "Native saplings planted by Sarvesamanah Foundation" },
-  // { src: achievement2, alt: "Geo-tagged tree plantation monitoring" },
-  // { src: achievement3, alt: "Sustainable tree care and maintenance" },
-  // { src: achievement4, alt: "Healthy native tree growth after plantation" },
+  { src: achievement1, alt: "Native saplings planted by Sarvesamanah Foundation" },
+  { src: achievement2, alt: "Geo-tagged tree plantation monitoring" },
+  { src: achievement3, alt: "Sustainable tree care and maintenance" },
+  { src: achievement4, alt: "Healthy native tree growth after plantation" },
   // { src: achievement5, alt: "Sarvesamanah Foundation field work" },
   { src: taljai1, alt: "Taljai Hills urban forest restoration" },
   { src: taljai2, alt: "Native species at Taljai Forest Zone Pune" },

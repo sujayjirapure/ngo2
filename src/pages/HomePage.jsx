@@ -4,7 +4,7 @@ import commitmentImg from "@/assets/commitment-nature.jpg";
 import achievement1 from "@/assets/achievement-1.jpg";
 import achievement2 from "@/assets/achievement-2.jpg";
 import nursery1 from "@/assets/nursery-1.jpg";
-import taljai1 from "@/assets/taljai-1.jpg";
+import taljai1 from "@/assets/ngo1.png";
 import taljai2 from "@/assets/taljai-2.jpg";
 function HomePage() {
   return (

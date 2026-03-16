@@ -1,4 +1,4 @@
-import goalsBg from "@/assets/goals-bg.jpg";
+import goalsBg from "@/assets/hero-main.jpg";
 import { Link } from "react-router-dom";
 
 function GoalsPage() {
