@@ -1,17 +1,17 @@
-import gallery1 from "@/assets/gallery-1.jpg";
-import gallery2 from "@/assets/gallery-2.jpg";
-import gallery3 from "@/assets/gallery-3.jpg";
-import gallery4 from "@/assets/gallery-4.jpg";
-import achievement1 from "@/assets/ngoA3.png";
-import achievement2 from "@/assets/ngo3.png";
-import achievement3 from "@/assets/ngo2.png";
-import achievement4 from "@/assets/ngo4.png";
-import achievement5 from "@/assets/achievement-5.jpg";
-import taljai1 from "@/assets/taljai-1.jpg";
-import taljai2 from "@/assets/taljai-2.jpg";
-import nursery1 from "@/assets/nursery-1.jpg";
-import nursery2 from "@/assets/nursery-2.jpg";
-import nursery3 from "@/assets/nursery-3.jpg";
+import gallery1 from "@/assets/gallery/ngog1.jpeg";
+import gallery2 from "@/assets/gallery/ngog2.jpeg";
+import gallery3 from "@/assets/gallery/ngog3.jpeg";
+import gallery4 from "@/assets/gallery/ngog4.jpeg";
+import achievement1 from "@/assets/gallery/ngog5.jpeg";
+import achievement2 from "@/assets/gallery/ngog6.jpeg";
+import achievement3 from "@/assets/gallery/ngog7.jpeg";
+import achievement4 from "@/assets/gallery/ngog14.jpeg";
+import achievement5 from "@/assets/gallery/ngog9.jpeg";
+import taljai1 from "@/assets//gallery/ngog10.jpeg";
+import taljai2 from "@/assets//gallery/ngog11.jpeg";
+import nursery1 from "@/assets//gallery/ngog12.jpeg";
+import nursery2 from "@/assets//gallery/ngog13.jpeg";
+import nursery3 from "@/assets//gallery/ngog8.jpeg";
 
 // All gallery images with alt text for SEO
 const galleryImages = [
@@ -23,7 +23,7 @@ const galleryImages = [
   { src: achievement2, alt: "Geo-tagged tree plantation monitoring" },
   { src: achievement3, alt: "Sustainable tree care and maintenance" },
   { src: achievement4, alt: "Healthy native tree growth after plantation" },
-  // { src: achievement5, alt: "Sarvesamanah Foundation field work" },
+  { src: achievement5, alt: "Sarvesamanah Foundation field work" },
   { src: taljai1, alt: "Taljai Hills urban forest restoration" },
   { src: taljai2, alt: "Native species at Taljai Forest Zone Pune" },
   { src: nursery1, alt: "Native plant nursery by Sarvesamanah Foundation" },

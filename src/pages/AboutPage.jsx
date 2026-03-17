@@ -1,7 +1,7 @@
 import about1 from "@/assets/about-1.jpg";
-import about2 from "@/assets/about-2.jpg";
-import mission1 from "@/assets/mission-1.jpg";
-import mission2 from "@/assets/mission-2.jpg";
+import about2 from "@/assets/gallery/ngog5.jpeg";
+import mission1 from "@/assets/gallery/ngog14.jpeg";
+import mission2 from "@/assets/gallery/ngog3.jpeg";
 import taljai2 from "@/assets/taljai-2.jpg";
 
 function AboutPage() {
@@ -44,7 +44,7 @@ function AboutPage() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <img src={taljai2} alt="Environmental conservation work by Sarvesamanah Foundation" className="rounded-lg shadow-md w-full h-48 object-cover" loading="lazy" />
-              <img src={taljai2} alt="Tree plantation initiative in Pune" className="rounded-lg shadow-md w-full h-48 object-cover mt-8" loading="lazy" />
+              <img src={mission1} alt="Tree plantation initiative in Pune" className="rounded-lg shadow-md w-full h-48 object-cover mt-8" loading="lazy" />
             </div>
           </div>
         </div>
@@ -55,8 +55,8 @@ function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="grid grid-cols-2 gap-4 order-2 md:order-1">
-              <img src={taljai2} alt="Mission of Sarvesamanah Foundation - environmental stewardship" className="rounded-lg shadow-md w-full h-48 object-cover" loading="lazy" />
-              <img src={taljai2} alt="Community enrichment through tree planting" className="rounded-lg shadow-md w-full h-48 object-cover mt-8" loading="lazy" />
+              <img src={about2} alt="Mission of Sarvesamanah Foundation - environmental stewardship" className="rounded-lg shadow-md w-full h-48 object-cover" loading="lazy" />
+              <img src={mission2} alt="Community enrichment through tree planting" className="rounded-lg shadow-md w-full h-48 object-cover mt-8" loading="lazy" />
             </div>
             <div className="order-1 md:order-2">
               <h2 className="font-heading text-3xl font-bold text-foreground mb-6">
