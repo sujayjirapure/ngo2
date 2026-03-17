@@ -55,8 +55,8 @@ function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="grid grid-cols-2 gap-4 order-2 md:order-1">
-              <img src={about2} alt="Mission of Sarvesamanah Foundation - environmental stewardship" className="rounded-lg shadow-md w-full h-48 object-cover" loading="lazy" />
-              <img src={mission2} alt="Community enrichment through tree planting" className="rounded-lg shadow-md w-full h-48 object-cover mt-8" loading="lazy" />
+              <img src={mission2} alt="Mission of Sarvesamanah Foundation - environmental stewardship" className="rounded-lg shadow-md w-full h-48 object-cover" loading="lazy" />
+              <img src={about2} alt="Community enrichment through tree planting" className="rounded-lg shadow-md w-full h-48 object-cover mt-8" loading="lazy" />
             </div>
             <div className="order-1 md:order-2">
               <h2 className="font-heading text-3xl font-bold text-foreground mb-6">
