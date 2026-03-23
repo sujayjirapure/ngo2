@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import heroImg from "@/assets/hero-main.jpg";
 import commitmentImg from "@/assets/commitment-nature.jpg";
 import achievement1 from "@/assets/achievement-1.jpg";
-import achievement2 from "@/assets/achievement-2.jpg";
+import achievement2 from "@/assets/gallery/ngog2.jpeg";
 import nursery1 from "@/assets/nursery-1.jpg";
 import taljai1 from "@/assets/ngo1.png";
 import taljai2 from "@/assets/taljai-2.jpg";
@@ -122,7 +122,7 @@ function HomePage() {
                 link: "/projects",
               },
               {
-                img: taljai2,
+                img: achievement2,
                 title: "Geo-Tagged Monitoring",
                 desc: "Every plantation activity follows geo-tagging and monitoring for transparency and long-term tracking.",
                 link: "/about",
