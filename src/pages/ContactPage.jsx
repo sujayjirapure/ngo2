@@ -140,7 +140,14 @@ function ContactPage() {
                       href="tel:02025412175"
                       className="font-body text-primary hover:underline"
                     >
-                      020-25412175
+                      +91 20-25412175
+                    </a>
+                    <br></br>
+                    <a
+                      href="tel:02025412175"
+                      className="font-body text-primary hover:underline"
+                    >
+                      +91 89562 58824
                     </a>
                   </div>
                 </div>

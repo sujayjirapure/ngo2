@@ -72,11 +72,11 @@ function ProjectsPage() {
         <div className="container mx-auto px-4">
 
           <h2 className="font-heading text-3xl font-bold text-foreground text-center mb-4">
-            Taljai Hills Plantation Project
+            Hills in PMC Area Plantation Project
           </h2>
 
           <p className="font-body text-muted-foreground text-center max-w-3xl mx-auto mb-12">
-            Urban forest restoration in Pune's Taljai Forest Zone
+            Urban forest restoration in Pune's Hills in PMC area
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-12">
@@ -85,7 +85,7 @@ function ProjectsPage() {
             <div>
               <p className="font-body text-muted-foreground leading-relaxed mb-4">
                 In 2024, Sarvesamanah Foundation successfully planted 2,400+ native trees in the
-                Taljai Forest Zone (PMC area), Pune. In 2025, an additional 4,000+ native trees
+                Hills in PMC area, Pune. In 2025, an additional 4,500+ native trees
                 were planted, further expanding the urban forest restoration effort.
               </p>
 
@@ -117,10 +117,10 @@ function ProjectsPage() {
             </div>
 
             {/* Images */}
-            <div className="grid grid-cols-2 gap-4">
-              <img src={taljai1} className="rounded-lg shadow-md w-full h-40 object-cover" loading="lazy" />
-              <img src={taljai2} className="rounded-lg shadow-md w-full h-40 object-cover" loading="lazy" />
-              {/* <img src={taljai3} className="rounded-lg shadow-md w-full h-40 object-cover" loading="lazy" />
+            <div className="flex justify-end">
+              <img src={taljai1} className="rounded-lg shadow-md w-[450px] h-52 object-cover" loading="lazy" />
+              {/* <img src={taljai2} className="rounded-lg shadow-md w-full h-40 object-cover" loading="lazy" />
+              <img src={taljai3} className="rounded-lg shadow-md w-full h-40 object-cover" loading="lazy" />
               <img src={taljai4} className="rounded-lg shadow-md w-full h-40 object-cover" loading="lazy" /> */}
             </div>
 

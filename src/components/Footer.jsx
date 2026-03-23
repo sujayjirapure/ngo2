@@ -56,8 +56,14 @@ function Footer() {
               </p>
               <p>
                 Phone:{" "}
-                <a href="tel:02025412175" className="hover:text-background transition-colors">
-                  020-25412175
+                <a href="tel:2025412175" className="hover:text-background transition-colors">
+                  +91 20-25412175
+                </a>
+              </p>
+              <p>
+                Phone:{" "}
+                <a href="tel:8956258824" className="hover:text-background transition-colors">
+                  +91 89562 58824
                 </a>
               </p>
               <p>

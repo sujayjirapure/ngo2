@@ -88,7 +88,7 @@ function HomePage() {
             {[
               { number: "4,500+", label: "Native Trees Planted" },
               { number: "100%", label: "Native Species Only" },
-              { number: "2024-25", label: "Active Plantation Years" },
+              { number: "2024-25-26", label: "Active Plantation Years" },
             ].map((stat) => (
               <div key={stat.label}>
                 <p className="text-primary-foreground font-heading text-4xl md:text-5xl font-bold mb-2">
@@ -111,8 +111,8 @@ function HomePage() {
             {[
               {
                 img: taljai2,
-                title: "Taljai Hills Plantation",
-                desc: "2,400+ native trees planted in 2024 at Taljai Forest Zone, Pune, with 4,000+ more in 2025.",
+                title: "Hills in PMC Area Plantation",
+                desc: "2,400+ native trees planted in 2024 at Hills in PMC area, Pune, with 4,000+ more in 2025.",
                 link: "/projects",
               },
               {
