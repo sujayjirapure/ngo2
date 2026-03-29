@@ -11,7 +11,8 @@ import nursery4 from "@/assets/ngoA2.png";
 
 import achievement1 from "@/assets/ngo3.png";
 import achievement2 from "@/assets/ngoA3.png";
-import achievement3 from "@/assets/achievement-3.jpg";
+import achievement3 from "@/assets/ngo2.png";
+import achievement4 from "@/assets/ngo4.png";
 
 function ProjectsPage() {
   return (
@@ -35,7 +36,7 @@ function ProjectsPage() {
             Key Achievements in Sustainability
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-12">
             
             {/* Text */}
             <div>
@@ -56,11 +57,34 @@ function ProjectsPage() {
             </div>
 
             {/* Images */}
-            <div className="grid grid-cols-2 gap-4">
-              <img src={achievement1} className="rounded-lg shadow-md w-full h-40 object-cover" loading="lazy" />
-              <img src={achievement2} className="rounded-lg shadow-md w-full h-40 object-cover" loading="lazy" />
-              {/* <img src={achievement3} className="rounded-lg shadow-md w-full h-40 object-cover" loading="lazy" />
-              <img src={achievement1} className="rounded-lg shadow-md w-full h-40 object-cover" loading="lazy" /> */}
+            <div className="grid grid-cols-2 gap-4 max-h-[300px]">
+  
+  {/* Left */}
+  <img
+    src={achievement3}
+    className="rounded-lg shadow-md w-full h-full object-contain bg-white"
+    loading="lazy"
+  />
+
+  {/* Right */}
+  <img
+    src={achievement4}
+    className="rounded-lg shadow-md w-full h-full object-contain bg-white"
+    loading="lazy"
+  />
+              {/* <div className="grid grid-rows-2 gap-4">
+                <img
+                  src={achievement1}
+                  className="rounded-lg shadow-md w-full aspect-[4/3] object-cover"
+                  loading="lazy"
+                />
+                <img
+                  src={achievement3}
+                  className="rounded-lg shadow-md w-full aspect-[4/3] object-cover"
+                  loading="lazy"
+                />
+              </div> */}
+
             </div>
 
           </div>
@@ -117,12 +141,16 @@ function ProjectsPage() {
             </div>
 
             {/* Images */}
-            <div className="flex justify-end">
-              <img src={taljai1} className="rounded-lg shadow-md w-[450px] h-52 object-cover" loading="lazy" />
-              {/* <img src={taljai2} className="rounded-lg shadow-md w-full h-40 object-cover" loading="lazy" />
-              <img src={taljai3} className="rounded-lg shadow-md w-full h-40 object-cover" loading="lazy" />
-              <img src={taljai4} className="rounded-lg shadow-md w-full h-40 object-cover" loading="lazy" /> */}
-            </div>
+           <div className="flex flex-col items-end gap-4 w-full">
+  <img
+    src={taljai1}
+    className="rounded-lg shadow-md w-full md:w-[450px] h-60 object-cover"
+  />
+  <img
+    src={taljai2}
+    className="rounded-lg shadow-md w-full md:w-[450px] h-62 object-cover"
+  />
+</div>
 
           </div>
         </div>

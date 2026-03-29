@@ -31,7 +31,7 @@ function Navbar() {
             className="h-20 w-20 object-contain border-8 border-primary rounded-lg"
           />
           <span className="text-primary-foreground font-heading text-xl font-bold hidden sm:block">
-            Sarvesamanah
+            Sarvesamanah Foundation
           </span>
         </Link>
 
