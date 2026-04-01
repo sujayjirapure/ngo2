@@ -8,15 +8,22 @@ function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Logo & About */}
           <div>
-            <div className="flex items-center gap-3 mb-4">
-              <img src={logo} alt="Sarvesamanah Foundation" className="h-16 w-16" />
-              <span className="font-heading text-lg font-bold">Sarvesamanah Foundation</span>
-            </div>
-            <p className="text-background/70 font-body text-sm leading-relaxed">
-              Branches of Care, Roots of Trust. Nurturing nature through community-driven
-              tree plantation and environmental conservation in Pune, India.
-            </p>
-          </div>
+  <div className="flex flex-col items-start mb-4">
+    <img
+      src={logo}
+      alt="Sarvesamanah Foundation"
+      className="h-40 w-45 mb-2"
+    />
+    <span className="font-heading text-lg font-bold">
+      Sarvesamanah Foundation
+    </span>
+  </div>
+
+  <p className="text-background/70 font-body text-sm leading-relaxed">
+    Branches of Care, Roots of Trust. Nurturing nature through community-driven
+    tree plantation and environmental conservation in Pune, India.
+  </p>
+</div>
 
           {/* Quick Links */}
           <div>

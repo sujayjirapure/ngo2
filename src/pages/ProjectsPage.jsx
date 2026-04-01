@@ -1,7 +1,7 @@
 
 import taljai1 from "@/assets/taljai-1.jpg";
 import taljai2 from "@/assets/taljai-2.jpg";
-import taljai3 from "@/assets/ngo2.png";
+import taljai3 from "@/assets/ngo30.jpeg";
 import taljai4 from "@/assets/ngo4.png";
 
 import nursery1 from "@/assets/nursery-1.jpg";
@@ -147,7 +147,7 @@ function ProjectsPage() {
     className="rounded-lg shadow-md w-full md:w-[450px] h-60 object-cover"
   />
   <img
-    src={taljai2}
+    src={taljai3}
     className="rounded-lg shadow-md w-full md:w-[450px] h-62 object-cover"
   />
 </div>

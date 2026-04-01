@@ -24,11 +24,11 @@ function Navbar() {
     <nav className="fixed top-0 left-0 w-full z-50 bg-primary shadow-md">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
-         <Link to="/" className="flex items-center gap-3" onClick={closeMenu}>
+         <Link to="/" className="flex items-center gap-2" onClick={closeMenu}>
           <img
             src={logo}
             alt="Sarvesamanah Foundation Logo"
-            className="h-20 w-20 object-contain border-8 border-primary rounded-lg"
+            className="h-24 w-24 object-contain border-4 border-primary rounded-lg"
           />
           <span className="text-primary-foreground font-heading text-xl font-bold hidden sm:block">
             Sarvesamanah Foundation
