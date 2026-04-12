@@ -61,14 +61,14 @@ function ProjectsPage() {
   
   {/* Left */}
   <img
-    src={achievement3}
+    src={achievement4}
     className="rounded-lg shadow-md w-full h-full object-contain bg-white"
     loading="lazy"
   />
 
   {/* Right */}
   <img
-    src={achievement4}
+    src={achievement3}
     className="rounded-lg shadow-md w-full h-full object-contain bg-white"
     loading="lazy"
   />
@@ -197,9 +197,9 @@ function ProjectsPage() {
                 ))}
               </ul>
 
-              <p className="font-body text-muted-foreground text-xs mt-4">
+              {/* <p className="font-body text-muted-foreground text-xs mt-4">
                 📍 Shop No 1, Pandit Phar Nagar, Karvenagar, Pune
-              </p>
+              </p> */}
             </div>
 
           </div>
