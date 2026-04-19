@@ -13,6 +13,7 @@ import achievement1 from "@/assets/ngo3.png";
 import achievement2 from "@/assets/ngoA3.png";
 import achievement3 from "@/assets/ngo2.png";
 import achievement4 from "@/assets/ngo4.png";
+import achievement5 from "@/assets/sujay2.png";
 
 function ProjectsPage() {
   return (
@@ -57,36 +58,37 @@ function ProjectsPage() {
             </div>
 
             {/* Images */}
-            <div className="grid grid-cols-2 gap-4 max-h-[300px]">
-  
-  {/* Left */}
-  <img
-    src={achievement4}
-    className="rounded-lg shadow-md w-full h-full object-contain bg-white"
-    loading="lazy"
-  />
+            <div className="grid grid-cols-2 gap-4">
 
-  {/* Right */}
-  <img
-    src={achievement3}
-    className="rounded-lg shadow-md w-full h-full object-contain bg-white"
-    loading="lazy"
-  />
-              {/* <div className="grid grid-rows-2 gap-4">
-                <img
-                  src={achievement1}
-                  className="rounded-lg shadow-md w-full aspect-[4/3] object-cover"
-                  loading="lazy"
-                />
-                <img
-                  src={achievement3}
-                  className="rounded-lg shadow-md w-full aspect-[4/3] object-cover"
-                  loading="lazy"
-                />
-              </div> */}
+  {/* LEFT */}
+  <div className="aspect-[3/4]">
+    <img
+      src={achievement4}
+      className="rounded-lg shadow-md w-full h-full object-cover"
+      loading="lazy"
+    />
+  </div>
 
-            </div>
+  {/* RIGHT */}
+  <div className="grid grid-rows-2 gap-4">
+    <div className="aspect-[3/2]">
+      <img
+        src={achievement5}
+        className="rounded-lg shadow-md w-full h-full object-cover"
+        loading="lazy"
+      />
+    </div>
 
+    <div className="aspect-[3/2]">
+      <img
+        src={achievement1}
+        className="rounded-lg shadow-md w-full h-full object-cover"
+        loading="lazy"
+      />
+    </div>
+  </div>
+
+</div>
           </div>
         </div>
       </section>
