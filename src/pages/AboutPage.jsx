@@ -112,6 +112,14 @@
 
 
 function AboutPage() {
+
+  const items = [
+  <>Registered as <strong>Section 8 Company</strong> under Companies Act, 2013</>,
+  <><strong>CSR-1 Registered</strong> with Ministry of Corporate Affairs (MCA)</>,
+  <>Income Tax Department <strong>PAN and TAN</strong> Registered</>,
+  <><strong>Nitiayog - Darpan ID</strong></>,
+  <><strong>12A and 80G</strong> registered organisation</>,
+];
   return (
     <>
       {/* Page Header */}
@@ -157,19 +165,13 @@ function AboutPage() {
               Certifications & Registrations
             </h3>
             <ul className="space-y-2 text-muted-foreground max-w-2xl mx-auto">
-              {[
-                "Registered as Section 8 Company under Companies Act, 2013",
-                "CSR-1 Registered with Ministry of Corporate Affairs (MCA)",
-                "Income Tax Department PAN and TAN Registered",
-                "Nitiayog- Darpan ID",
-                "12A and 80G registered organisation",
-              ].map((item, i) => (
-                <li key={i} className="flex items-start gap-2">
-                  <span className="w-2 h-2 mt-2 rounded-full bg-primary shrink-0" />
-                  {item}
-                </li>
-              ))}
-            </ul>
+  {items.map((item, i) => (
+    <li key={i} className="flex items-start gap-2">
+      <span className="w-2 h-2 mt-2 rounded-full bg-primary shrink-0" />
+      {item}
+    </li>
+  ))}
+</ul>
           </div>
 
           {/* Services */}
@@ -201,11 +203,11 @@ function AboutPage() {
             </h3>
             <ul className="space-y-2 text-muted-foreground max-w-2xl mx-auto">
               {[
-                "Plastic waste collection & recycling",
+                "Environmental sustainability, tree plantation",
                 "Sustainable livelihood initiatives",
-                "Community infrastructure support",
                 "School & rural sustainability projects",
-                "Climate action and circular economy initiatives",
+                "Plastic waste collection & recycling",
+                "Climate action and circular economy",
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-2">
                   <span className="w-2 h-2 mt-2 rounded-full bg-primary shrink-0" />
