@@ -6,6 +6,7 @@ import achievement1 from "@/assets/gallery/ngog5.jpeg";
 import achievement2 from "@/assets/gallery/ngog6.jpeg";
 import achievement3 from "@/assets/gallery/ngog7.jpeg";
 import achievement4 from "@/assets/gallery/ngog14.jpeg";
+
 // import achievement5 from "@/assets/gallery/ngog9.jpeg";
 // import taljai1 from "@/assets//gallery/ngog10.jpeg";
 import taljai2 from "@/assets//gallery/ngog50.jpeg";
